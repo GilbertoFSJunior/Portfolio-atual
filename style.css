@@ -1,0 +1,77 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #89a09a;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  background: #070705;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-list li {
+  list-style: none;
+  display: inline;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+.nav-list a:hover {
+  color: #070705;
+  background-color: #89a09a;
+  border-radius: 12px;
+}
+
+/* Seção de Introdução */
+.introducao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.introducao h1 {
+  padding: 10px;
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.introducao p {
+  text-align: center;
+}
+
+.introducao h3 {
+  font-size: 14px;
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 1.6;
+  text-align: justify;
+  clear: both; /* Evita interferência da imagem flutuante */
+}
+
+.introdução-conteudo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}

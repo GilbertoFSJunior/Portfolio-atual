@@ -1,0 +1,28 @@
+.footer {
+  background-color: #070705; /* Cor de fundo escura */
+  color: white; /* Texto em branco */
+  text-align: center; /* Centraliza conteúdo */
+  padding: 20px 0;
+  margin-top: 30px;
+}
+
+.footer-social {
+  margin-bottom: 10px;
+}
+
+.social-link {
+  display: inline-block;
+  margin: 0 10px; /* Espaçamento horizontal entre os ícones */
+  font-size: 30px; /* Tamanho dos ícones */
+  color: white;
+  transition: color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+.social-link:hover {
+  color: #89a09a; /* Cor de destaque ao passar o mouse */
+}
+
+.footer-text {
+  font-size: 14px;
+  margin-top: 10px;
+}
