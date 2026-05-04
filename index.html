@@ -1,324 +1,246 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gilberto F S Junior Portfólio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
+    <title>Gilberto Junior | RPA Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="styleprojects.css" />
-    <link rel="stylesheet" href="stylecertificados.css" />
-    <link rel="stylesheet" href="stylefooter.css" />
   </head>
   <body>
+
     <header>
-      <nav id="navbar" class="nav">
+      <nav class="nav">
+        <span class="nav-logo">GJ</span>
         <ul class="nav-list">
-          <li><a href="#welcome-section">Sobre</a></li>
-          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
           <li><a href="#certificados">Certificados</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <li><a href="#contato" class="nav-cta">Contato</a></li>
         </ul>
       </nav>
     </header>
 
-    <section id="welcome-section" class="introducao">
-      <div class="introducao-conteudo">
-        <div class="introducao-texto">
+    <section id="sobre" class="hero">
+      <div class="hero-inner">
+        <div class="hero-photo-wrap">
+          <img src="./assets/GilbertoFSJunior.jpg" alt="Gilberto Junior" class="hero-photo" />
+        </div>
+        <div class="hero-text">
+          <span class="hero-tag">Disponível para oportunidades</span>
           <h1>Gilberto Junior</h1>
-          <h2><p>Full Stack Developer</p><h2>
-          <h3>
-            <p>
-              Sou Gilberto, apaixonado por tecnologia e atualmente em transição
-              para a área de Desenvolvimento e Programação de Softwares. Minha
-              motivação está em criar soluções tecnológicas inovadoras,
-              enfrentar desafios complexos e contribuir para projetos que gerem
-              impacto positivo no mundo digital.
-            </p>
-            <br />
-            <p>
-              Com mais de 20 anos de experiência em administração e marketing,
-              desenvolvi habilidades sólidas em gestão de projetos, liderança de
-              equipes, análise de dados e resolução de problemas complexos, que
-              agora aplico na área de tecnologia. Atualmente, estou me
-              especializando em desenvolvimento web e programação full stack,
-              aprimorando competências em tecnologias como HTML, CSS,
-              JavaScript, Node.js e frameworks modernos, além de buscar sempre
-              alinhar inovação e experiência do usuário em meus projetos.
-            </p>
-            <br />
-            Meu objetivo é unir minha bagagem profissional à paixão pela
-            tecnologia, contribuindo para o crescimento de empresas e a
-            construção de soluções que realmente façam a diferença. Estou pronto
-            para novos desafios, colaborações e oportunidades de aprendizado
-            contínuo. Se você procura um profissional dedicado, estratégico e
-            com visão de negócios, ficarei muito feliz em conversar!
-          </h3>
+          <h2 class="hero-role">RPA Developer <span class="hero-sep">·</span> Python Automation</h2>
+          <p class="hero-bio">
+            Desenvolvo automações que eliminam trabalho manual e conectam sistemas corporativos.
+            Atuo com Python, Selenium e Pywinauto integrando plataformas fiscais e workflows de negócio.
+          </p>
+          <div class="hero-stack">
+            <span class="stack-pill">Python</span>
+            <span class="stack-pill">Selenium</span>
+            <span class="stack-pill">PyAutoGUI</span>
+            <span class="stack-pill">Pywinauto</span>
+            <span class="stack-pill">Pandas</span>
+            <span class="stack-pill">RPA</span>
+            <span class="stack-pill">Git</span>
+          </div>
+          <div class="hero-ctas">
+            <a href="#projetos" class="btn-primary">Ver Projetos</a>
+            <a href="#contato" class="btn-secondary">Fale Comigo</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="projects" class="projetos">
-      <h2 class="projetos-header">Meus Projetos</h2>
-      <p class="projetos-descricao">
-        Aqui estão alguns dos projetos que desenvolvi. Clique nos cartões para
-        explorar mais detalhes!
-      </p>
-      <div class="projetos-grid">
-        <div class="projeto-card">
-          <img
-            src="./assets/ProjetoSitedeReceitas.png"
-            alt="Projeto Site de Receitas"
-            class="projeto-img"
-          />
-          <h3 class="projeto-titulo">Site de Receitas</h3>
-          <p class="projeto-detalhes">
-            Uma aplicação web interativa que compartilha receitas deliciosas.
-          </p>
-          <a
-            href="https://gilbertofsjunior.github.io/sitedereceitas/"
-            target="_blank"
-            class="projeto-link"
-            >Ver Projeto</a
-          >
-        </div>
-        <div class="projeto-card">
-          <img
-            src="./assets/ProjetoGeradorDeSenhas.png"
-            alt="Projeto Gerador de Senhas"
-            class="projeto-img"
-          />
-          <h3 class="projeto-titulo">Gerador de Senhas</h3>
-          <p class="projeto-detalhes">
-            Ferramenta para criar senhas seguras e personalizadas.
-          </p>
-          <a
-            href="https://gilbertofsjunior.github.io/PassWordGenerator/"
-            target="_blank"
-            class="projeto-link"
-            >Ver Projeto</a
-          >
-        </div>
-        <div class="projeto-card">
-          <img
-            src="./assets/ProjetorelogioMickeyMouse.png"
-            alt="Projeto Relógio Mickey"
-            class="projeto-img"
-          />
-          <h3 class="projeto-titulo">Relógio Mickey</h3>
-          <p class="projeto-detalhes">
-            Um relógio digital inspirado no design clássico do Mickey.
-          </p>
-          <a
-            href="https://gilbertofsjunior.github.io/MickeyClock/"
-            target="_blank"
-            class="projeto-link"
-            >Ver Projeto</a
-          >
+    <section id="projetos" class="section-projetos">
+      <div class="section-inner">
+        <h2 class="section-title">Projetos</h2>
+        <p class="section-sub">Trabalhos profissionais e projetos de estudo que marcaram minha trajetória.</p>
+
+        <div class="proj-group-label">Profissionais</div>
+        <div class="projetos-grid">
+
+          <div class="projeto-card">
+            <div class="proj-img-wrap">
+              <img src="./assets/RPAimage.png" alt="RPA Coleta de Dados" class="projeto-img" />
+              <span class="proj-badge badge-rpa">RPA · Profissional</span>
+            </div>
+            <div class="proj-body">
+              <h3 class="projeto-titulo">Coleta e Consolidação de Dados via RPA</h3>
+              <p class="projeto-detalhes">Automação que coleta dados de APIs e sistemas, consolida em relatórios estruturados e elimina retrabalho manual.</p>
+              <div class="proj-stack">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Requests</span>
+                <span class="tech-pill">Pandas</span>
+                <span class="tech-pill">SQLite</span>
+              </div>
+              <a href="https://github.com/GilbertoFSJunior/rpa-coleta-consolidacao.git" target="_blank" class="projeto-link">
+                <i class="fab fa-github"></i> Ver no GitHub
+              </a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <div class="proj-img-wrap">
+              <img src="./assets/StoreManagerDemo.png" alt="Store Manager" class="projeto-img" />
+              <span class="proj-badge badge-fullstack">Full Stack · Estudo</span>
+            </div>
+            <div class="proj-body">
+              <h3 class="projeto-titulo">Store Manager — Sistema de Gestão</h3>
+              <p class="projeto-detalhes">Sistema completo de gestão de lojas com autenticação, cadastro de produtos e painel administrativo.</p>
+              <div class="proj-stack">
+                <span class="tech-pill">React</span>
+                <span class="tech-pill">Firebase</span>
+                <span class="tech-pill">JavaScript</span>
+              </div>
+              <a href="https://github.com/gilbertofsjunior/StoreManager.git" target="_blank" class="projeto-link">
+                <i class="fab fa-github"></i> Ver no GitHub
+              </a>
+            </div>
+          </div>
+
         </div>
 
-        <div class="projeto-card">
-          <img
-            src="./assets/SpotifyImage1.png"
-            alt="spotify Clone"
-            class="projeto-img"
-          />
-          <h3 class="projeto-titulo">Clone-Spotify</h3>
-          <p class="projeto-detalhes">
-            Projeto inspirado na plataforma de musicas Spotify(Clone).
-          </p>
-          <a
-            href="https://gilbertofsjunior.github.io/spotify-imersao/"
-            target="_blank"
-            class="projeto-link"
-            >Ver Projeto</a
-          >
-        </div>
+        <div class="proj-group-label" style="margin-top:40px">Estudos &amp; Prática</div>
+        <div class="projetos-grid">
 
-        <div class="projeto-card">
-          <img
-            src="./assets/RPAimage.png"
-            alt="BOT Coleta e Consolidação de Dados"
-            class="projeto-img"
-          />
-          <h3 class="projeto-titulo">Coleta e consolidação de dados via RPA</h3>
-          <p class="projeto-detalhes">
-            Este projeto realiza a coleta automática de dados de produtos da API Fakestore.
-          </p>
-          <a
-            href="https://github.com/GilbertoFSJunior/rpa-coleta-consolidacao.git"
-            target="_blank"
-            class="projeto-link"
-            >Ver Projeto</a
-          >
-        </div>
+          <div class="projeto-card projeto-card-estudo">
+            <div class="proj-img-wrap">
+              <img src="./assets/SpotifyImage1.png" alt="Clone Spotify" class="projeto-img" />
+              <span class="proj-badge badge-estudo">Frontend · Estudo</span>
+            </div>
+            <div class="proj-body">
+              <h3 class="projeto-titulo">Clone Spotify</h3>
+              <p class="projeto-detalhes">Recriação da interface do Spotify para praticar HTML, CSS e responsividade.</p>
+              <div class="proj-stack">
+                <span class="tech-pill">HTML</span>
+                <span class="tech-pill">CSS</span>
+                <span class="tech-pill">JavaScript</span>
+              </div>
+              <a href="https://gilbertofsjunior.github.io/spotify-imersao/" target="_blank" class="projeto-link projeto-link-outline">
+                <i class="fas fa-external-link-alt"></i> Ver Demo
+              </a>
+            </div>
+          </div>
 
-        <div class="projeto-card">
-          <img
-            src="./assets/StoreManagerDemo.png"
-            alt="Sistema de Gestão de Lojas"
-            class="projeto-img"
-          />
-          <h3 class="projeto-titulo">Store Manager - Sistema de Gestão</h3>
-          <p class="projeto-detalhes">
-            Este Projeto é um sistema completo de gestão para lojas.
-          </p>
-          <a
-            href="https://github.com/gilbertofsjunior/StoreManager.git"
-            target="_blank"
-            class="projeto-link"
-            >Ver Projeto</a
-          >
+          <div class="projeto-card projeto-card-estudo">
+            <div class="proj-img-wrap">
+              <img src="./assets/ProjetoGeradorDeSenhas.png" alt="Gerador de Senhas" class="projeto-img" />
+              <span class="proj-badge badge-estudo">Frontend · Estudo</span>
+            </div>
+            <div class="proj-body">
+              <h3 class="projeto-titulo">Gerador de Senhas</h3>
+              <p class="projeto-detalhes">Ferramenta para gerar senhas seguras com configurações de comprimento e caracteres.</p>
+              <div class="proj-stack">
+                <span class="tech-pill">HTML</span>
+                <span class="tech-pill">CSS</span>
+                <span class="tech-pill">JavaScript</span>
+              </div>
+              <a href="https://gilbertofsjunior.github.io/PassWordGenerator/" target="_blank" class="projeto-link projeto-link-outline">
+                <i class="fas fa-external-link-alt"></i> Ver Demo
+              </a>
+            </div>
+          </div>
+
+          <div class="projeto-card projeto-card-estudo">
+            <div class="proj-img-wrap">
+              <img src="./assets/ProjetoSitedeReceitas.png" alt="Site de Receitas" class="projeto-img" />
+              <span class="proj-badge badge-estudo">Frontend · Estudo</span>
+            </div>
+            <div class="proj-body">
+              <h3 class="projeto-titulo">Site de Receitas</h3>
+              <p class="projeto-detalhes">Aplicação web interativa para listagem e navegação de receitas culinárias.</p>
+              <div class="proj-stack">
+                <span class="tech-pill">HTML</span>
+                <span class="tech-pill">CSS</span>
+                <span class="tech-pill">JavaScript</span>
+              </div>
+              <a href="https://gilbertofsjunior.github.io/sitedereceitas/" target="_blank" class="projeto-link projeto-link-outline">
+                <i class="fas fa-external-link-alt"></i> Ver Demo
+              </a>
+            </div>
+          </div>
+
         </div>
-        
       </div>
     </section>
 
-    <section id="certificados" class="certificados">
-      <h2 class="certificados-header">Certificados</h2>
-      <p class="certificados-descricao">
-        Aqui estão algumas das certificações que adquiri ao longo da minha
-        jornada profissional. Clique para ver mais detalhes.
-      </p>
-      <div class="certificados-grid">
-        <div class="certificado-card">
-          <img
-            src="./assets/Certificado3Estacio.png"
-            alt="Certificado estacio 01"
-            class="certificado-img"
-          />
-          <h3 class="certificado-titulo">
-            Certificação Intermediária Estácio de Sá 1
-          </h3>
-          <a
-            href="https://certificado.estacio.br/bd176e279dff46566289f2f"
-            target="_blank"
-            class="certificado-link"
-            >Ver Certificado</a
-          >
-        </div>
-        <div class="certificado-card">
-          <img
-            src="./assets/Certificado2Estacio.png"
-            alt="certificado estacio 02"
-            class="certificado-img"
-          />
-          <h3 class="certificado-titulo">
-            Certificação Intermediária Estácio de Sá 2
-          </h3>
-          <a
-            href="https://certificado.estacio.br/b1c9bb8dde45cfb9a7d5a66"
-            target="_blank"
-            class="certificado-link"
-            >Ver Certificado</a
-          >
-        </div>
-        <div class="certificado-card">
-          <img
-            src="./assets/Certificado1Estacio.png"
-            alt="certificado estacio 03"
-            class="certificado-img"
-          />
-          <h3 class="certificado-titulo">
-            Certificação Intermediária Estácio de Sá 3
-          </h3>
-          <a
-            href="https://certificado.estacio.br/cb884ce258c8fa213dad2e8"
-            target="_blank"
-            class="certificado-link"
-            >Ver Certificado</a
-          >
-        </div>
+    <section id="certificados" class="section-certificados">
+      <div class="section-inner">
+        <h2 class="section-title">Certificados</h2>
+        <p class="section-sub">Formações e certificações que complementam minha atuação profissional.</p>
+        <div class="certificados-grid">
 
-         <div class="certificado-card">
-          <img
-            src="./assets/imersãocertificado.png"
-            alt="certificado imersão alura"
-            class="certificado-img"
-          />
-          <h3 class="certificado-titulo">
-            Certificação de conclusão da imersão frontend Alura 2025.
-          </h3>
-          <a
-            href="https://www.alura.com.br"
-            target="_blank"
-            class="certificado-link"
-            >Ver Certificado</a
-          >
-        </div>
+          <div class="certificado-card">
+            <img src="./assets/imersãocertificado.png" alt="Imersão Alura Frontend 2025" class="certificado-img" />
+            <div class="cert-body">
+              <span class="cert-tag">Alura · 2025</span>
+              <h3 class="certificado-titulo">Imersão Frontend Alura 2025</h3>
+              <a href="https://www.alura.com.br" target="_blank" class="certificado-link">Ver Certificado</a>
+            </div>
+          </div>
 
-        <div class="certificado-card">
-          <img
-            src="./assets/primeiraaplicaçãog8oracelalura.png"
-            alt="certificado formação backend alura/oracle"
-            class="certificado-img"
-          />
-          <h3 class="certificado-titulo">
-            Certificação formação backend alura/oracle G8 2025
-          </h3>
-          <a
-            href="https://www.alura.com.br"
-            target="_blank"
-            class="certificado-link"
-            >Ver Certificado</a
-          >
-        </div>
+          <div class="certificado-card">
+            <img src="./assets/primeiraaplicaçãog8oracelalura.png" alt="Formação Backend Alura Oracle G8" class="certificado-img" />
+            <div class="cert-body">
+              <span class="cert-tag">Alura · Oracle · 2025</span>
+              <h3 class="certificado-titulo">Formação Backend Alura/Oracle G8</h3>
+              <a href="https://www.alura.com.br" target="_blank" class="certificado-link">Ver Certificado</a>
+            </div>
+          </div>
 
-        <div class="certificado-card">
-          <img
-            src="./assets/G8OOAluraOracle.png"
-            alt="certificado formação backend alura/oracle"
-            class="certificado-img"
-          />
-          <h3 class="certificado-titulo">
-            Certificação formação backend alura/oracle G8 2025
-          </h3>
-          <a
-            href="https://www.alura.com.br"
-            target="_blank"
-            class="certificado-link"
-            >Ver Certificado</a
-          >
+          <div class="certificado-card">
+            <img src="./assets/G8OOAluraOracle.png" alt="Formação Oracle G8 OO" class="certificado-img" />
+            <div class="cert-body">
+              <span class="cert-tag">Alura · Oracle · 2025</span>
+              <h3 class="certificado-titulo">Orientação a Objetos Alura/Oracle G8</h3>
+              <a href="https://www.alura.com.br" target="_blank" class="certificado-link">Ver Certificado</a>
+            </div>
+          </div>
+
+          <div class="certificado-card">
+            <img src="./assets/Certificado3Estacio.png" alt="Certificação Estácio 1" class="certificado-img" />
+            <div class="cert-body">
+              <span class="cert-tag">Estácio de Sá</span>
+              <h3 class="certificado-titulo">Certificação Intermediária Estácio — Nível 1</h3>
+              <a href="https://certificado.estacio.br/bd176e279dff46566289f2f" target="_blank" class="certificado-link">Ver Certificado</a>
+            </div>
+          </div>
+
+          <div class="certificado-card">
+            <img src="./assets/Certificado2Estacio.png" alt="Certificação Estácio 2" class="certificado-img" />
+            <div class="cert-body">
+              <span class="cert-tag">Estácio de Sá</span>
+              <h3 class="certificado-titulo">Certificação Intermediária Estácio — Nível 2</h3>
+              <a href="https://certificado.estacio.br/b1c9bb8dde45cfb9a7d5a66" target="_blank" class="certificado-link">Ver Certificado</a>
+            </div>
+          </div>
+
+          <div class="certificado-card">
+            <img src="./assets/Certificado1Estacio.png" alt="Certificação Estácio 3" class="certificado-img" />
+            <div class="cert-body">
+              <span class="cert-tag">Estácio de Sá</span>
+              <h3 class="certificado-titulo">Certificação Intermediária Estácio — Nível 3</h3>
+              <a href="https://certificado.estacio.br/cb884ce258c8fa213dad2e8" target="_blank" class="certificado-link">Ver Certificado</a>
+            </div>
+          </div>
+
         </div>
-        
       </div>
     </section>
 
-    <footer class="footer">
-      <section id="contato" class="contato">
-        <p>Meu Contato e Redes Sociais</p>
+    <footer id="contato" class="footer">
+      <div class="footer-inner">
+        <p class="footer-name">Gilberto Junior</p>
+        <p class="footer-role">RPA Developer · Python Automation</p>
         <div class="footer-social">
-          <a
-            href="https://www.linkedin.com/in/gilbertofsjunior/"
-            target="_blank"
-            class="social-link"
-          >
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a
-            href="https://github.com/GilbertoFSJunior"
-            target="_blank"
-            class="social-link"
-          >
-            <i class="fab fa-github"></i>
-          </a>
-
-          <a
-            href="https://www.instagram.com/gilberto_dev2/"
-            target="_blank"
-            class="social-link"
-          >
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="mailto:gilberto.tnt@hotmail.com" class="social-link">
-            <i class="fas fa-envelope"></i>
-          </a>
+          <a href="https://www.linkedin.com/in/gilbertofsjunior/" target="_blank" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/GilbertoFSJunior" target="_blank" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/gilberto_dev2/" target="_blank" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="mailto:gilberto.tnt@hotmail.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
         </div>
-      </section>
-      <p class="footer-text">Gilberto F S Junior - Copyright &copy; 2025</p>
+        <p class="footer-copy">© 2025 Gilberto F S Junior</p>
+      </div>
     </footer>
+
   </body>
 </html>
