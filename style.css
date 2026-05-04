@@ -128,7 +128,7 @@ header {
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: 40% top;
+  object-position: 30% top;
   border: 2px solid var(--gold-border);
   outline: 1px solid var(--border-md);
 }
